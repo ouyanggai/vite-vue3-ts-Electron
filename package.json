@@ -1,0 +1,26 @@
+{
+  "name": "oyg-vite-vue-app",
+  "main": "main.js",
+  "author": "ouyanggai",
+  "description": "my first app",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "serve": "vite preview",
+    "start": "export NODE_ENV='development' && electron ."
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "vue": "^3.0.5",
+    "vue-router": "^4.0.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.1.5",
+    "@vue/compiler-sfc": "^3.0.5",
+    "electron": "^12.0.1",
+    "typescript": "^4.1.3",
+    "vite": "^2.1.0",
+    "vue-tsc": "^0.0.8"
+  }
+}
