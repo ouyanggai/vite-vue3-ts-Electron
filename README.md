@@ -25,3 +25,7 @@ Run `Volar: Switch TS Plugin on/off` from VSCode command palette.
 3. Open `src/main.ts` in VSCode
 4. Open the VSCode command palette
 5. Search and run "Select TypeScript version" -> "Use workspace version"
+
+
+###1.0内容
+ ##采用vitejs vue-ts模板生成脚手架、现阶段已完成electron集成 并可以热更新
